@@ -1,0 +1,12 @@
+import static org.juint.Assert.*;
+import org.junit.Test;
+import mainclass.Hello;
+public class HelloTest
+{
+	Hello h1 = new Hello();
+	@Test
+	public void testprint()
+	{
+		assertEquals("kapil",h1.print());
+	}	
+}
